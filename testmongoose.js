@@ -3,7 +3,8 @@ mongoose.connect('mongodb://localhost/test');
 const schema={
     name:String,
     age: Number,
-    health:String
+    health:String,
+    hobby:String
 }
 // const Cat = mongoose.model('Cat',schema);
 const mydata = mongoose.model('cats',schema);
